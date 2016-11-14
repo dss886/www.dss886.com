@@ -99,4 +99,4 @@ Indentation matters. Be sure the indent of the code block aligns with the first 
 
 An example of a Gist embed below.
 
-{% gist mmistakes/6589546 %}
+{% gist dss886/7ec18f21dd6a17d31d89c5f307600be1 %}
