@@ -63,15 +63,15 @@ body {
 	h1 {
 		margin: 10px 20px;
 		font-weight: 700;
-		@include font-rem(32);
+		@include font-rem(48);
 		color: lighten($base-color,20);
 
 		@media #{$medium} {
-			@include font-rem(48);
+			@include font-rem(72);
 		}
 
 		@media #{$large} {
-			@include font-rem(60);
+			@include font-rem(100);
 		}
 	}
 
@@ -82,7 +82,7 @@ body {
 		color: lighten($base-color,40);
 
 		@media #{$medium} {
-			@include font-rem(24);
+			@include font-rem(30);
 		}
 	}
 
@@ -156,8 +156,12 @@ body {
 	}
 
 	img {
+		@media #{$large} {
+			top: -45%;
+		}
+		top: 0;
+
 		position: absolute; 
-		top: 0; 
 		left: 0; 
 		right: 0; 
 		bottom: 0; 
