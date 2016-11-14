@@ -1,18 +1,20 @@
-title:            Site Title
-description:      Describe your website here.
-disqus_shortname: 
+title:            dss886的博客
+description:      dss886的博客
+disqus_shortname: dss886
 reading_time:     true
 words_per_minute: 200
+comments:         true
+share:            true
 # Your site's domain goes here (eg: https://mmistakes.github.io, http://yourdomain.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url:
+url:              http://127.0.0.1:4000
 
 # Owner/author information
 owner:
-  name:           Your Name
+  name:           dss886
   avatar:         avatar.jpg
-  bio:            "Your bio goes here. It shouldn't be super long but a good sentence or two should suffice."
-  email:          you@email.com
+  bio:            "怕什么真理无穷<br/>进一寸有一寸的欢喜"
+  email:          me@dss886.com
   # Social networking links used in footer. Update and remove as you like.
   twitter:        
   facebook:       
@@ -26,7 +28,7 @@ owner:
   google_plus:
 
 # Background image to be tiled on all pages
-background: 
+background: ps_neutral.png
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   
@@ -35,7 +37,7 @@ google_verify:
 bing_verify:         
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    Asia/Shanghai
 future:      false  # publish future dated posts --  true, false (default) 
 highlighter: rouge
 markdown:    kramdown
