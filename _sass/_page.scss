@@ -71,7 +71,20 @@ body {
 		}
 
 		@media #{$large} {
-			@include font-rem(100);
+			@include font-rem(96);
+		}
+	}
+
+	/* 首页title需要大号字体，单个post页覆盖掉使用稍小的字体 */
+	h1.entry-title {
+		@include font-rem(32);
+
+		@media #{$medium} {
+			@include font-rem(64);
+		}
+
+		@media #{$large} {
+			@include font-rem(72);
 		}
 	}
 
@@ -82,7 +95,7 @@ body {
 		color: lighten($base-color,40);
 
 		@media #{$medium} {
-			@include font-rem(30);
+			@include font-rem(32);
 		}
 	}
 
