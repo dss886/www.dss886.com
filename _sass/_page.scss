@@ -230,7 +230,7 @@ body {
 	}
 
 	.vcard {
-
+		text-transform: lowercase;
 		&:before {
 			content: " by ";
 		}
