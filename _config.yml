@@ -38,7 +38,7 @@ bing_verify:
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone:    Asia/Shanghai
-future:      false  # publish future dated posts --  true, false (default) 
+future:      true  # publish future dated posts --  true, false (default) 
 highlighter: rouge
 markdown:    kramdown
 gems:
@@ -51,7 +51,7 @@ sass:
   style: compressed
 
 # https://github.com/mojombo/jekyll/wiki/Permalinks
-permalink:   /:categories/:title/
+permalink:   /:year/:month/:day/:title/
 
 # Amount of post to show on home page
 paginate: 5

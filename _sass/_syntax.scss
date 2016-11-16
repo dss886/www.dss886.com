@@ -128,9 +128,32 @@ figure.highlight {
 	.m { color: #6897BB } /* Literal.Number */
 	.s { color: #6A8759 } /* Literal.String */
 	.na { color: #A9B7C6 } /* Name.Attribute */
-	.nf { color: #CC7833 } /* Name.Function */
+	.nc { color: #A9B7C6 } /* Name.Class */
+	.nd { color: #BBB529 } /* Name.Decorator */
+	.nf { color: #A9B7C6 } /* Name.Function */
 	.mf { color: #6897BB } /* Literal.Number.Float */
 	.mh { color: #6897BB } /* Literal.Number.Hex */
 	.mi { color: #6897BB } /* Literal.Number.Integer */
 	.mo { color: #6897BB } /* Literal.Number.Oct */
+}
+
+.language-json {
+	.p { color: #A9B7C6 } /* Punctuation */
+	.nt { color: #A9B7C6 } /* Name.Tag */
+	.kc { color: #ae81ff } /* Keyword.Constant */
+	.s2 { color: #6A8759 } /* Literal.String.Double */
+}
+
+.language-xml {
+	.nt { color: #E8BF6A } /* Name.Tag */
+	.s { color: #A5C261 } /* Literal.String */
+	.na { color: #A9B7C6 } /* Name.Attribute */
+}
+
+.language-gradle {
+	.k { color: #A9B7C6 } /* Keyword */
+	.n { color: #A9B7C6 } /* Name */
+	.o { color: #A9B7C6 } /* Operator */
+	.s1 { color: #6A8759 } /* Literal.String.Single */
+	.s2 { color: #6A8759 } /* Literal.String.Double */
 }
