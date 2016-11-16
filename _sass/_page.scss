@@ -239,15 +239,17 @@ body {
 	}
 
 	.vcard {
-		text-transform: lowercase;
+		text-transform: none;
 		&:before {
 			content: " by ";
 		}
 	}
 
 	.tag {
+		text-transform: none;
+		@include font-rem(14);
 		display: inline-block;
-		margin: 4px;
+		margin: 5px;
 		color: #fff;
 		border-radius: 3px;
 		background-color: lighten($base-color,50);

@@ -1,8 +1,11 @@
 ---
 layout: post-index
-title: Tag Archive
-description: "An archive of posts sorted by tag."
+title: 标签列表
+description: ""
+image:
+  feature: 45.jpg
 comments: false
+share: false
 ---
 
 {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
