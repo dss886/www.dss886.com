@@ -300,10 +300,6 @@ header .entry-meta {
 			max-width: 800px;
 			margin: 50px auto 30px auto;
 			padding: 50px 80px;
-
-			> p:first-child {
-				@include font-size(20);
-			}
 		}
 	}
 
@@ -496,6 +492,14 @@ header .entry-meta {
 		@media #{$large} {
 			margin-bottom: 30px;
 			padding: 50px 80px;
+		}
+	}
+	li.entry-title {
+		padding: 8px 0;
+		@include font-rem(20);
+
+		a {
+			color: rgba(34,34,34,0.8);
 		}
 	}
 }
