@@ -48,10 +48,10 @@
         {% if site.share != false and page.share != false %}{% include social-share.html %}{% endif %}
       </footer>
     </div><!-- /.entry-content -->
-    {% if page.comments != false %}
+    {% if page.comments != false and site.comments_name %}
       <section id="comment_wrapper">
         <div id="uyan_frame"></div>
-      </section><!-- /#disqus_thread -->
+      </section><!-- /#comments_thread -->
     {% endif %}
   </article>
 </div><!-- /#main -->
