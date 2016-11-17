@@ -1,0 +1,32 @@
+---
+layout: post-index
+title: 分类列表
+image:
+  feature: 42.jpg
+comments: false
+share: false
+---
+
+<article>
+<h2 class="category-heading">{{ page.title }}</h2>
+    <ul>
+    {% assign categories_list = site.categories %}
+    {% for category in categories_list %}
+        <li class="entry-title"><a href="#{{ category[0] }}-ref">
+            {{ category[0] | join: "/" }}
+        <span>：共 {{ category[1].size }} 篇</span></a>
+    </li>
+    {% endfor %}
+    </ul>
+</article>
+
+{% for category in site.categories %}
+<article>
+    <h2 id="{{ category[0] }}-ref" class="category-heading">{{ category[0] }}</h2>
+    {% for post in category[1] %}{% if post.title != null %}
+      <li class="entry-title">
+        <a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a>
+      </li>
+    {% endif %}{% endfor %}
+</article>
+{% endfor %}
