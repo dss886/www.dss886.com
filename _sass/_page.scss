@@ -184,14 +184,22 @@ body {
 #post-index {
 
 	&.feature .header-title {
-		height: $front-page-feature-image-height;
+		height: $front-page-feature-image-height-small;
+		@media #{$medium} {
+			height: $front-page-feature-image-height;
+		}
 	}
 
 	.entry-image {
-		min-height: $front-page-feature-image-height;
-
-		img {
+		min-height: $front-page-feature-image-height-small;
+		@media #{$medium} {
 			min-height: $front-page-feature-image-height;
+		}
+		img {
+			min-height: $front-page-feature-image-height-small;
+			@media #{$medium} {
+				min-height: $front-page-feature-image-height;
+			}
 		}
 	}
 }
@@ -512,7 +520,11 @@ header .entry-meta {
 }
 
 .entry-image-index {
-	height: 200px;
+	height: 150px;
+	@media #{$medium} {
+		height: 200px;
+	}
+
 	overflow: hidden;
 	position: relative;
 
