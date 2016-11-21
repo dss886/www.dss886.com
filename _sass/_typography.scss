@@ -90,13 +90,8 @@ figcaption {
    ========================================================================== */
 
 blockquote {
-	font-family: $alt-font;
 	border-left: 4px solid $border-color;
 	padding-left: 16px;
-
-	@media #{$medium} {
-		margin-left: -20px;
-	}
 }
 
 /* 
