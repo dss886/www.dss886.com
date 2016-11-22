@@ -260,23 +260,27 @@ body {
 		margin: 5px;
 		color: #fff;
 		border-radius: 15px;
-		background-color: rgba(0,0,0,.1);
+		background-color: rgba(0,0,0,.06);
 
 		span {
 			float: left;
-			color: gray;
+			color: #BBB;
 			padding: 5px 15px;
 		}
 
 		.count {
-			background-color: rgba(0,0,0,.2);
+			background-color: rgba(0,0,0,.16);
 			border-radius: 0 15px 15px 0;
 			padding: 5px 10px;
 		}
 
 		&:hover {
-			background-color: rgba(0,0,0,.2);
+			background-color: rgba(0,0,0,.16);
 		}
+	}
+
+	.tag-dark span {
+		color: grey;
 	}
 
 	.entry-reading-time {
@@ -624,6 +628,30 @@ header .entry-meta {
 	a {
 		color: lighten($text-color,20);
 	}
+}
+
+/*
+   打赏
+   ========================================================================== */
+.description-reward {
+	@include font-rem(15);
+}
+
+.btn-reward {
+  background-color: #80CBC4;
+  color: #fff;
+  border-color: #80CBC4;
+  border-radius: 4px;
+  margin-bottom: 30px;
+
+  &:visited {
+    color: #fff;
+  }
+
+  &:hover {
+    background-color: #fff;
+    color: #80CBC4;
+  }
 }
 
 /* 
