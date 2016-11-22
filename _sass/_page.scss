@@ -520,6 +520,7 @@ header .entry-meta {
 }
 
 .entry-image-index {
+	border-radius: 3px 3px 0 0;
 	height: 150px;
 	@media #{$medium} {
 		height: 200px;
@@ -552,7 +553,6 @@ header .entry-meta {
 	}
 
 	img {
-		border-radius: 3px 3px 0 0; // round image corners
 		position: absolute;
 	    margin: auto;
 	    left: -100%;
