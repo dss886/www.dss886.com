@@ -1,2 +1,18 @@
 <p class="description-reward">「喜欢这篇文章？」</p>
-<a class="btn btn-reward" data-reveal-id="myModal">打赏</a>
+<a class="btn btn-reward " href="#reward-popup" data-effect="mfp-zoom-in">打赏</a>
+
+<div id="reward-popup" class="reward-popup zoom-anim-dialog mfp-hide">
+  <p>扫描下面的二维码向我付款</p>
+  <p>鼓励我写出更好的文章</p>
+  <div class="reward-wrapper">
+  	<div class="reward-block">
+  		<img class="reward-qrcode-tag" src="{{ site_url }}/images/wechat.png" alt="微信支付" />
+		<img class="reward-qrcode" src="{{ site_url }}/images/reward_wechat.jpeg" alt="微信支付二维码" />
+  	</div>
+	<div class="reward-block">
+  		<img class="reward-qrcode-tag" src="{{ site_url }}/images/alipay.jpg" alt="微信支付" />
+		<img class="reward-qrcode" src="{{ site_url }}/images/reward_alipay.jpeg" alt="支付宝二维码" />
+  	</div>
+  </div>
+	  <button title="关闭" type="button" class="mfp-close">×</button>
+</div>
