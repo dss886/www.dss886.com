@@ -581,6 +581,34 @@ header .entry-meta {
 	}
 }
 
+.entry-index {	/* 不带题图的文章 */
+
+	overflow: hidden;
+	position: relative;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+
+    @media #{$medium} {
+		margin-bottom: 15px;
+	}
+
+	@media #{$large} {
+		margin-bottom: 20px;
+	}
+
+	h1 {
+		position: relative;
+		margin: auto;
+		padding: 15px;
+
+		a {
+			color: $text-color;
+		}
+	}
+}
+
 /* 
    Footer
    ========================================================================== */
