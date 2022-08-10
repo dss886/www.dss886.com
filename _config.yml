@@ -8,7 +8,7 @@ reward:           true
 share:            false
 # Your site's domain goes here (eg: https://mmistakes.github.io, http://yourdomain.com, etc)
 # When testing locally leave blank or use http://localhost:4000
-url:              http://www.dss886.com
+url:              https://www.dss886.com
 
 # Owner/author information
 owner:
